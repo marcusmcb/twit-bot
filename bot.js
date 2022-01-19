@@ -1,41 +1,35 @@
-let Twit = require('twit')
-let dotenv = require('dotenv')
+const Twit = require('twit')
+const dotenv = require('dotenv')
+const twitterContent = require('./data.js')
 
 dotenv.config()
 
-let T = new Twit({
+const T = new Twit({
   consumer_key: process.env.CONSUMER_KEY,
   consumer_secret: process.env.CONSUMER_SECRET,
   access_token: process.env.ACCESS_TOKEN,
-  access_token_secret: process.env.ACCESS_TOKEN_SECRET 
+  access_token_secret: process.env.ACCESS_TOKEN_SECRET,
 })
 
-let tweet = {
-  status: "A test post from a Node app I'm building."
+const composeTweet = (twitterContent) => {
+  // generates a random index value to select from array  
+  const randomIndex = Math.floor(Math.random() * twitterContent.length)
+  const item = twitterContent[randomIndex]
+  let tweet = {
+    status: `${item.title} (${item.year}) ${item.url}`
+  }  
+  return tweet
 }
 
-T.post('statuses/update', tweet, tweeted)
+let newTweet = composeTweet(twitterContent)
 
-function tweeted(err, data, response) {
+const tweeted = (err, data, response) => {
   if (err) {
-    console.log("ERROR: ", err)
+    console.log('ERROR: ', err)
   } else {
-    console.log("SUCCESS: ", response)
+    console.log('SUCCESS: ', response)
   }
 }
 
-// let params = {
-//   q: 'banana since:2011-11-11',
-//   count: 5
-// }
-
-// T.get('search/tweets', params, gotData)
-
-// function gotData(err, data, response) {
-//   let tweets = data.statuses
-//   for (let i = 0; i < tweets.length; i++) {
-//     console.log("----------------------------")
-//     console.log(tweets[i].text)
-//   }
-// }
-
+// set interval on this method to automate new tweets
+T.post('statuses/update', newTweet, tweeted)
