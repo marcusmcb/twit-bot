@@ -37,7 +37,7 @@ let twitterContent = [
   },
   {
     id: 7,
-    url: 'https://www.youtube.com/results?search_query=garbage+when+i+grow+up+remix',
+    url: 'https://www.youtube.com/watch?v=5yNZDHCwjdc',
     title: "Garbage - When I Grow Up (Danny Tenaglia's Club Mix)",
     year: '1999',
   },

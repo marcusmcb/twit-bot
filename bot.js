@@ -24,21 +24,22 @@ const composeTweet = (twitterContent) => {
 const tweetIt = (twitterContent) => {
   let newTweet = composeTweet(twitterContent)
 
-  let tweeted = (data, err, response) => {
+  let tweeted = (err, data, response) => {
     if (err) {
       console.log('ERROR: ', err)
     } else {
-      console.log('SUCCESS: ', newTweet)
+      console.log('* * * * * * * * * * * * * * * * *')
+      console.log('Successfully posted: ')      
+      console.log(newTweet)      
     }
   }
-  // T.post('statuses/update', newTweet, tweeted)
-  console.log(newTweet)
+  T.post('statuses/update', newTweet, tweeted)  
 }
 
 tweetIt(twitterContent)
 setInterval(() => {
   tweetIt(twitterContent)
-}, 1000 * 20)
+}, 1000 * 30)
 
 // functionality to delete previous tweet if array item
 // was previously posted based on error response from

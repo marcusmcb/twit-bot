@@ -1,15 +1,15 @@
 {
   "name": "twit-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Twitter Bot Script - MCB, 2022",  
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node bot.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["twitter", "node", "javascript", "api", "npm"],
+  "author": "Marcus McBride",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^14.2.0",
     "twit": "^2.2.11"
