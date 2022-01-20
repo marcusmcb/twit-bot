@@ -39,3 +39,10 @@ tweetIt(twitterContent)
 setInterval(() => {
   tweetIt(twitterContent)
 }, 1000 * 20)
+
+// functionality to delete previous tweet if array item
+// was previously posted based on error response from
+// the twitter api
+
+// functionality to post content relative to specific
+// dates, holidays, events, etc via tags in the data array.
