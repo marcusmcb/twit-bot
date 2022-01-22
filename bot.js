@@ -29,7 +29,7 @@ const tweetIt = (twitterContent) => {
       console.log('ERROR: ', err)
     } else {
       console.log('* * * * * * * * * * * * * * * * *')
-      console.log('Successfully posted: ')      
+      console.log('Successfully posted: ')          
       console.log(newTweet)      
     }
   }
@@ -41,9 +41,8 @@ setInterval(() => {
   tweetIt(twitterContent)
 }, 1000 * 30)
 
-// functionality to delete previous tweet if array item
-// was previously posted based on error response from
-// the twitter api
+// functionality to pop random item from array once selected
+// to avoid twitter duplicate post error
 
 // functionality to post content relative to specific
 // dates, holidays, events, etc via tags in the data array.

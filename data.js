@@ -536,13 +536,14 @@ let twitterContent = [
   {
     id: 89,
     url: 'https://www.youtube.com/watch?v=uhYnapk6BDM',
-    title: "Urbanized (feat Silvano) - Helpeless (The Kenlou Remix)",
+    title: 'Urbanized (feat Silvano) - Helpeless (The Kenlou Remix)',
     year: '1992',
   },
   {
     id: 90,
     url: 'https://www.youtube.com/watch?v=0FbV6zZOA30',
-    title: "Aaron Smith (feat Luvli) - Dancin' (JJ Flores & Steve Smooth Remix)",
+    title:
+      "Aaron Smith (feat Luvli) - Dancin' (JJ Flores & Steve Smooth Remix)",
     year: '2004',
   },
   {
@@ -572,7 +573,7 @@ let twitterContent = [
   {
     id: 95,
     url: 'https://www.youtube.com/watch?v=BYyfXdZuI-c',
-    title: "Information Society - Walking Away (Space Age Mix)",
+    title: 'Information Society - Walking Away (Space Age Mix)',
     year: '1988',
   },
   {
@@ -604,6 +605,128 @@ let twitterContent = [
     url: 'https://www.youtube.com/watch?v=07OqqFK6_FU',
     title: 'Dru Hill (feat JD & Da Brat) - In My Bed (So So Def Remix)',
     year: '1997',
+  },
+  {
+    id: 101,
+    url: 'https://www.youtube.com/watch?v=yuRuWvN0RzE',
+    title:
+      'Refugee Camp All-Stars (feat Lauryn Hill) - The Sweetest Thing (Mahogany Mix)',
+    year: '1997',
+  },
+  {
+    id: 102,
+    url: 'https://www.youtube.com/watch?v=ADWPxypmhOY',
+    title:
+      'Future Sound Of London - We Have Explosive (Mantronik Plastic Formula #1)',
+    year: '1997',
+  },
+  {
+    id: 103,
+    url: 'https://www.youtube.com/watch?v=J9M7zIB4v-0',
+    title: 'Cassius - Feeling For You (Les Rhythmes Digitales Dreamix',
+    year: '1999',
+  },
+  {
+    id: 104,
+    url: 'https://www.youtube.com/watch?v=9oeOD60J7Bc',
+    title: 'Cirrus - Back On A Mission (DJ Dan Remix)',
+    year: '1998',
+  },
+  {
+    id: 105,
+    url: 'https://www.youtube.com/watch?v=-GJPVQ8OajI',
+    title: 'EPMD vs Mantronik - Strictly Business (MBA Remix Edit)',
+    year: '1998',
+  },
+  {
+    id: 106,
+    url: 'https://www.youtube.com/watch?v=c1yiamSrsto',
+    title: "Simply Red - Stars (PM Dawn's Comprende Mix)",
+    year: '1991',
+  },
+  {
+    id: 107,
+    url: 'https://www.youtube.com/watch?v=84fhnHhmHTc',
+    title: "Sublime (feat The Pharcyde) - Doin' Time (Marshall Arts Remix)",
+    year: '1997',
+  },
+  {
+    id: 108,
+    url: 'https://www.youtube.com/watch?v=oVkatTa0D4c',
+    title: 'Gorillaz - 19-2000 (Soulchild Remix)',
+    year: '2001',
+  },
+  {
+    id: 109,
+    url: 'https://www.youtube.com/watch?v=NHy5J8rBsrA',
+    title: 'Chili Hi Fly - Is It Love? (Original 12" Mix)',
+    year: '1998',
+  },
+  {
+    id: 110,
+    url: 'https://www.youtube.com/watch?v=nygK0pqUmD8',
+    title: 'Daft Punk - Harder Better Faster Stronger (The Neptunes Remix)',
+    year: '2003',
+  },
+  {
+    id: 111,
+    url: 'https://www.youtube.com/watch?v=RIzbOHajEO0',
+    title: "Will To Power - Dreamin' (Manhattan Mix)",
+    year: '1987',
+  },
+  {
+    id: 112,
+    url: '',
+    title: "",
+    year: '',
+  },
+  {
+    id: 113,
+    url: '',
+    title: "",
+    year: '',
+  },
+  {
+    id: 114,
+    url: '',
+    title: "",
+    year: '',
+  },
+  {
+    id: 115,
+    url: '',
+    title: "",
+    year: '',
+  },
+  {
+    id: 116,
+    url: '',
+    title: "",
+    year: '',
+  },
+  {
+    id: 117,
+    url: '',
+    title: "",
+    year: '',
+  },
+  {
+    id: 118,
+    url: '',
+    title: "",
+    year: '',
+  },
+  {
+    id: 119,
+    url: '',
+    title: "",
+    year: '',
+  },
+  {
+    id: 120,
+    url: '',
+    title: "",
+    year: '',
   },
 ]
 
