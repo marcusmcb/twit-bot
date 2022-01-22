@@ -18,12 +18,14 @@ const composeTweet = (twitterContent) => {
   let tweet = {
     status: `${item.title} (${item.year}) ${item.url}`,
   }
+  // remove item from array once used (twitter duplicate post err)
+  twitterContent.splice(item, 1) 
   return tweet
 }
 
 const tweetIt = (twitterContent) => {
   let newTweet = composeTweet(twitterContent)
-
+  // callback to handle twitter response
   let tweeted = (err, data, response) => {
     if (err) {
       console.log('ERROR: ', err)
@@ -40,9 +42,6 @@ tweetIt(twitterContent)
 setInterval(() => {
   tweetIt(twitterContent)
 }, 1000 * 30)
-
-// functionality to pop random item from array once selected
-// to avoid twitter duplicate post error
 
 // functionality to post content relative to specific
 // dates, holidays, events, etc via tags in the data array.
