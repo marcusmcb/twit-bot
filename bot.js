@@ -28,7 +28,7 @@ const tweetIt = (twitterContent) => {
   // callback to handle twitter response
   let tweeted = (err, data, response) => {
     if (err) {
-      console.log('ERROR: ', err)
+      console.log('ERROR: ', err.allErrors[0].message)
     } else {
       console.log('* * * * * * * * * * * * * * * * *')
       console.log('Successfully posted: ')          
@@ -70,6 +70,9 @@ setInterval(() => {
 
 // add "original" property to each entry as an object with
 // title/year/url properties
+
+// further data breakdown for each object for expanded
+// use in other apps?
 
 // when a random index is selected that has an "original" key
 // available, compose second tweet with the original's values
