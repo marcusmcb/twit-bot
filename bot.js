@@ -42,6 +42,10 @@ tweetIt(twitterContent)
 setInterval(() => {
   tweetIt(twitterContent)
 }, 1000 * 30)
+setInterval(() => {
+  console.log('-----------------------------------------------')
+  console.log("Server running @", (new Date().toLocaleString()))
+}, 1000 * 10)
 
 // functionality to post content relative to specific
 // dates, holidays, events, etc via tags in the data array.
