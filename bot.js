@@ -1,6 +1,7 @@
 const Twit = require('twit')
 const dotenv = require('dotenv')
 const twitterContent = require('./data.js')
+const chalk = require('chalk')
 
 dotenv.config()
 
@@ -28,31 +29,56 @@ const tweetIt = (twitterContent) => {
   // callback to handle twitter response
   let tweeted = (err, data, response) => {
     if (err) {
+      chalk.bgRed('------------------------------------------------')
+      console.log("")
       console.log('ERROR: ', err.allErrors[0].message)
     } else {
-      console.log('* * * * * * * * * * * * * * * * *')
-      console.log('Successfully posted: ')
+      console.log(
+        chalk.bgGreen('------------------------------------------------')
+      )
+      console.log('')
+      console.log(
+        'NEW TWEET SUCCESSFULLY POSTED @',
+        new Date().toLocaleString()
+      )
+      console.log('')
       console.log(newTweet)
+      console.log('')
     }
   }
   // T.post('statuses/update', newTweet, tweeted)
-  console.log("NEW TWEET: ", newTweet)
+
+  // for logging/testing purposes
+  console.log(chalk.bgGreen('------------------------------------------------'))
+  console.log('')
+  console.log('NEW TWEET SUCCESSFULLY POSTED @', new Date().toLocaleString())
+  console.log('')
+  console.log(newTweet)
+  console.log('')
+  console.log(`The next scheduled post is in ${intervalCount} seconds.`)
+  console.log('')
 }
 
-let intervalCount = 30;
+let intervalCount = 30
 
 tweetIt(twitterContent)
-setInterval(() => {  
+setInterval(() => {
   tweetIt(twitterContent)
 }, 1000 * 30)
-setInterval(() => {  
+setInterval(() => {
   // console.log("IC: ", intervalCount)
   if (intervalCount > 10) {
     intervalCount = intervalCount - 10
-    console.log('------------------------------------------------')
-    console.log('Server running @', new Date().toLocaleString())
-    console.log(`Next scheduled post in ${intervalCount} seconds.`)
-  } else if (intervalCount <= 10) {        
+    console.log(
+      chalk.bgYellow(
+        chalk.black('------------------------------------------------')
+      )
+    )
+    console.log('')
+    console.log('bot.js currently running @', new Date().toLocaleString())
+    console.log(`The next scheduled post is in ${intervalCount} seconds.`)
+    console.log('')
+  } else if (intervalCount <= 10) {
     intervalCount = 30
   }
 }, 1000 * 10)

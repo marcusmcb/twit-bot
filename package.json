@@ -2,7 +2,7 @@
   "name": "twit-bot",
   "version": "1.0.0",
   "description": "A Twitter Bot Script - MCB, 2022",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node bot.js"
@@ -17,6 +17,7 @@
   "author": "Marcus McBride",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^2.4.1",
     "dotenv": "^14.2.0",
     "twit": "^2.2.11"
   }
