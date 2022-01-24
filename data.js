@@ -226,7 +226,7 @@ let twitterContent = [
   {
     id: 38,
     url: 'https://www.youtube.com/watch?v=qMaYmhf87JY',
-    title: 'N.E.R.D. - Lapdance (Nine Inch Nails Remix)',
+    title: "N.E.R.D. - Lapdance (Nine Inch Nails Remix)",
     year: '',
   },
   {

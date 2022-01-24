@@ -19,7 +19,7 @@ const composeTweet = (twitterContent) => {
     status: `${item.title} (${item.year}) ${item.url}`,
   }
   // remove item from array once used (twitter duplicate post err)
-  twitterContent.splice(item, 1) 
+  twitterContent.splice(item, 1)
   return tweet
 }
 
@@ -31,20 +31,30 @@ const tweetIt = (twitterContent) => {
       console.log('ERROR: ', err.allErrors[0].message)
     } else {
       console.log('* * * * * * * * * * * * * * * * *')
-      console.log('Successfully posted: ')          
-      console.log(newTweet)      
+      console.log('Successfully posted: ')
+      console.log(newTweet)
     }
   }
-  T.post('statuses/update', newTweet, tweeted)  
+  // T.post('statuses/update', newTweet, tweeted)
+  console.log("NEW TWEET: ", newTweet)
 }
 
+let intervalCount = 30;
+
 tweetIt(twitterContent)
-setInterval(() => {
+setInterval(() => {  
   tweetIt(twitterContent)
 }, 1000 * 30)
-setInterval(() => {
-  console.log('-----------------------------------------------')
-  console.log("Server running @", (new Date().toLocaleString()))
+setInterval(() => {  
+  // console.log("IC: ", intervalCount)
+  if (intervalCount > 10) {
+    intervalCount = intervalCount - 10
+    console.log('------------------------------------------------')
+    console.log('Server running @', new Date().toLocaleString())
+    console.log(`Next scheduled post in ${intervalCount} seconds.`)
+  } else if (intervalCount <= 10) {        
+    intervalCount = 30
+  }
 }, 1000 * 10)
 
 // functionality to post content relative to specific
