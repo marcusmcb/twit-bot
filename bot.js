@@ -29,12 +29,22 @@ const tweetIt = (twitterContent) => {
   // callback to handle twitter response
   let tweeted = (err, data, response) => {
     if (err) {
-      chalk.bgRed('------------------------------------------------')
-      console.log("")
+      console.log('')
+      console.log(
+        chalk.bgRed(
+          chalk.black('------------------------------------------------')
+        )
+      )
+      console.log('')
       console.log('ERROR: ', err.allErrors[0].message)
+      console.log('')      
+      console.log(`bot.js will attempt another post in ${intervalCount} seconds.`)
+      console.log('')
     } else {
       console.log(
-        chalk.bgGreen('------------------------------------------------')
+        chalk.bgGreen(
+          chalk.black('------------------------------------------------')
+        )
       )
       console.log('')
       console.log(
@@ -46,17 +56,17 @@ const tweetIt = (twitterContent) => {
       console.log('')
     }
   }
-  // T.post('statuses/update', newTweet, tweeted)
+  T.post('statuses/update', newTweet, tweeted)
 
   // for logging/testing purposes
-  console.log(chalk.bgGreen('------------------------------------------------'))
-  console.log('')
-  console.log('NEW TWEET SUCCESSFULLY POSTED @', new Date().toLocaleString())
-  console.log('')
-  console.log(newTweet)
-  console.log('')
-  console.log(`The next scheduled post is in ${intervalCount} seconds.`)
-  console.log('')
+  // console.log(chalk.bgGreen(chalk.black('------------------------------------------------')))
+  // console.log('')
+  // console.log('NEW TWEET SUCCESSFULLY POSTED @', new Date().toLocaleString())
+  // console.log('')
+  // console.log(newTweet)
+  // console.log('')
+  // console.log(`The next scheduled post is in ${intervalCount} seconds.`)
+  // console.log('')
 }
 
 let intervalCount = 30
