@@ -37,8 +37,10 @@ const tweetIt = (twitterContent) => {
       )
       console.log('')
       console.log('ERROR: ', err.allErrors[0].message)
-      console.log('')      
-      console.log(`bot.js will attempt another post in ${intervalCount} seconds.`)
+      console.log('')
+      console.log(
+        `bot.js will attempt another post in ${intervalCount} minutes.`
+      )
       console.log('')
     } else {
       console.log(
@@ -53,6 +55,9 @@ const tweetIt = (twitterContent) => {
       )
       console.log('')
       console.log(newTweet)
+      console.log('')
+      console.log('')
+      console.log(`The next scheduled post is in ${intervalCount} minutes.`)
       console.log('')
     }
   }
@@ -74,7 +79,7 @@ let intervalCount = 30
 tweetIt(twitterContent)
 setInterval(() => {
   tweetIt(twitterContent)
-}, 1000 * 30)
+}, 1000 * 30 * 60)
 setInterval(() => {
   // console.log("IC: ", intervalCount)
   if (intervalCount > 10) {
@@ -86,12 +91,12 @@ setInterval(() => {
     )
     console.log('')
     console.log('bot.js currently running @', new Date().toLocaleString())
-    console.log(`The next scheduled post is in ${intervalCount} seconds.`)
+    console.log(`The next scheduled post is in ${intervalCount} minutes.`)
     console.log('')
   } else if (intervalCount <= 10) {
     intervalCount = 30
   }
-}, 1000 * 10)
+}, 1000 * 10 * 60)
 
 // functionality to post content relative to specific
 // dates, holidays, events, etc via tags in the data array.

@@ -873,49 +873,7 @@ let twitterContent = [
     url: 'https://www.youtube.com/watch?v=5IMbWYCfjvI',
     title: "Neneh Cherry - Buffalo Stance (Sukka Mix)",
     year: '1989',
-  },
-  {
-    id: 145,
-    url: '',
-    title: '',
-    year: '',
-  },
-  {
-    id: 146,
-    url: '',
-    title: '',
-    year: '',
-  },
-  {
-    id: 147,
-    url: '',
-    title: '',
-    year: '',
-  },
-  {
-    id: 148,
-    url: '',
-    title: '',
-    year: '',
-  },
-  {
-    id: 149,
-    url: '',
-    title: '',
-    year: '',
-  },
-  {
-    id: 150,
-    url: '',
-    title: '',
-    year: '',
-  },
-  {
-    id: '',
-    url: '',
-    title: '',
-    year: '',
-  },
+  }  
 ]
 
 module.exports = twitterContent
