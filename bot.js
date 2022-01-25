@@ -136,3 +136,5 @@ setInterval(() => {
 // check to see if there's an id property in the "tweeted"
 // callback response && can it be passed to the same
 // statuses/update endpoint as a param for an automated reply?
+
+// DISPLAY FORMATTING OF YT LINKS ON TWITTER MOBILE ???
