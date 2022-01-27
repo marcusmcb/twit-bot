@@ -138,3 +138,7 @@ setInterval(() => {
 // statuses/update endpoint as a param for an automated reply?
 
 // DISPLAY FORMATTING OF YT LINKS ON TWITTER MOBILE ???
+
+// set interval to post every 3 hours (8x daily) and test
+// currently working properly on 30 minute interval
+// via ssh connection - script fails on connection timeout
