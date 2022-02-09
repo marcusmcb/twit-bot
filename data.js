@@ -873,7 +873,49 @@ let twitterContent = [
     url: 'https://www.youtube.com/watch?v=5IMbWYCfjvI',
     title: "Neneh Cherry - Buffalo Stance (Sukka Mix)",
     year: '1989',
-  }  
+  },  
+  {
+    id: 145,
+    url: 'https://www.youtube.com/watch?v=pEZqkwRRSus',
+    title: "Salt & Pepa - Do You Want Me? (Linus & Lucy Remix)",
+    year: '1992',
+  },  
+  {
+    id: 146,
+    url: 'https://www.youtube.com/watch?v=7PkveRrkUAg',
+    title: "CZR - Southside Chicago (Rick's Chicago Boogie Mix)",
+    year: '1999',
+  },  
+  {
+    id: 146,
+    url: 'https://www.youtube.com/watch?v=_vesMYHRCRk',
+    title: "Johnny P - Look Good (Metro Club Mix)",
+    year: '1993',
+  },  
+  {
+    id: 147,
+    url: 'https://www.youtube.com/watch?v=rd9IT4mW0C4',
+    title: "Noel - Silent Morning (12-Inch Club Mix)",
+    year: '1987',
+  },  
+  {
+    id: 148,
+    url: 'https://www.youtube.com/watch?v=zLXvgS3adrE',
+    title: "When In Rome - The Promise (Coliseum Club Mix)",
+    year: '1988',
+  },  
+  {
+    id: 149,
+    url: 'https://www.youtube.com/watch?v=dbKj_OjeBJk',
+    title: "Simple Minds - Alive & Kicking (12-Inch Version)",
+    year: '1985',
+  },  
+  {
+    id: 150,
+    url: 'https://www.youtube.com/watch?v=81to9jHBIIs',
+    title: "The B-52s - Roam (Extended Remix)",
+    year: '1989',
+  },  
 ]
 
 module.exports = twitterContent

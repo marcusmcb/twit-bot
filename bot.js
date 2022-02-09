@@ -19,7 +19,7 @@ const composeTweet = (twitterContent) => {
   let tweet = {
     status: `${item.title} (${item.year}) ${item.url}`,
   }
-  // remove item from array once used (twitter duplicate post err)
+  // remove item from array once used (to avoid duplicates & twitter dupe post err)
   twitterContent.splice(item, 1)
   return tweet
 }
@@ -61,17 +61,7 @@ const tweetIt = (twitterContent) => {
       console.log('')
     }
   }
-  T.post('statuses/update', newTweet, tweeted)
-
-  // for logging/testing purposes
-  // console.log(chalk.bgGreen(chalk.black('------------------------------------------------')))
-  // console.log('')
-  // console.log('NEW TWEET SUCCESSFULLY POSTED @', new Date().toLocaleString())
-  // console.log('')
-  // console.log(newTweet)
-  // console.log('')
-  // console.log(`The next scheduled post is in ${intervalCount} seconds.`)
-  // console.log('')
+  T.post('statuses/update', newTweet, tweeted)  
 }
 
 let intervalCount = 120
@@ -80,8 +70,7 @@ tweetIt(twitterContent)
 setInterval(() => {
   tweetIt(twitterContent)
 }, 1000 * 30 * 240)
-setInterval(() => {
-  // console.log("IC: ", intervalCount)
+setInterval(() => {  
   if (intervalCount > 40) {
     intervalCount = intervalCount - 40
     console.log(
@@ -98,20 +87,17 @@ setInterval(() => {
   }
 }, 1000 * 10 * 240)
 
+// FUTURE DEV
+
 // functionality to post content relative to specific
 // dates, holidays, events, etc via tags in the data array.
 
-// FUTURE DEV
-
 // "bot backup"
-
-// we'll need to persist the list of indicies that have already
-// been selected/posted to avoid the twitter duplicate-post issue
 
 // we're passing our data.js to the bot and removing each random
 // index from twitterContent as they're selected
 // none of this data persists however and would be lost
-// anytime the script is interrupted
+// anytime the script is interrupted or restarted
 
 // keep data.js as a "master list" to start but eventually migrate
 // json over to a proper mongo collection via mongoose
@@ -138,7 +124,3 @@ setInterval(() => {
 // statuses/update endpoint as a param for an automated reply?
 
 // DISPLAY FORMATTING OF YT LINKS ON TWITTER MOBILE ???
-
-// set interval to post every 3 hours (8x daily) and test
-// currently working properly on 30 minute interval
-// via ssh connection - script fails on connection timeout
