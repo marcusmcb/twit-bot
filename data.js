@@ -916,6 +916,66 @@ let twitterContent = [
     title: "The B-52s - Roam (Extended Remix)",
     year: '1989',
   },  
+  {
+    id: 151,
+    url: 'https://www.youtube.com/watch?v=DJt-0V7EbeA',
+    title: "Sugarhill Gang - Rappers Delight (Ben Liebrand Remix)",
+    year: '1989',
+  },  
+  {
+    id: 152,
+    url: 'https://www.youtube.com/watch?v=XxhRBHoARFM',
+    title: "Seal - Kiss From A Rose (Kicks From A Rhodes Remix)",
+    year: '1994',
+  },  
+  {
+    id: 153,
+    url: 'https://www.youtube.com/watch?v=LZwqQVd5RZk',
+    title: "Genesis - Tonight Tonight Tonight (Special 12 Inch Remix)",
+    year: '1987',
+  },  
+  {
+    id: 154,
+    url: 'https://www.youtube.com/watch?v=P3aaXj0x8ss',
+    title: "Milli Vanilli - Blame It On The Rain (12 Inch Extended Remix)",
+    year: '1989',
+  },  
+  {
+    id: 155,
+    url: 'https://www.youtube.com/watch?v=gYZbg-0RT24',
+    title: "George Benson - Shiver (12 Inch Remix)",
+    year: '1986',
+  },  
+  {
+    id: 156,
+    url: 'https://www.youtube.com/watch?v=zlGJ6kHeBME',
+    title: "Phil Collins - One More Night (12 Inch Version)",
+    year: '1985',
+  },  
+  {
+    id: 157,
+    url: 'https://www.youtube.com/watch?v=9wur9pGfOO0',
+    title: "Cutting Crew - (I Just) Died In Your Arms (UK 12 Inch Extended Remix)",
+    year: '1987',
+  },  
+  {
+    id: 158,
+    url: 'https://www.youtube.com/watch?v=rpko5y1lR1s',
+    title: "Foreigner - Urgent (Extended Version)",
+    year: '1981',
+  },  
+  {
+    id: 159,
+    url: 'https://www.youtube.com/watch?v=r8KiU1_Cj9E',
+    title: "Tony Terry - She's Fly (Long Version)",
+    year: '1987',
+  },  
+  {
+    id: 160,
+    url: 'https://www.youtube.com/watch?v=2bi-xdXFsqk',
+    title: "Prince & The NPG - Gett Off (Houstyle)",
+    year: '1991',
+  },  
 ]
 
 module.exports = twitterContent
