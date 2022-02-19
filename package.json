@@ -17,9 +17,12 @@
   "author": "Marcus McBride",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^2.4.1",
+    "chalk": "^2.4.2",
     "dotenv": "^14.2.0",
     "nodemon": "^2.0.15",
     "twit": "^2.2.11"
+  },
+  "engines": {
+    "node": "14.xs"
   }
 }
