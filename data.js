@@ -74,7 +74,7 @@ let twitterContent = [
   {
     id: 13,
     url: 'https://www.youtube.com/watch?v=9lB1jiv83Q0',
-    title: '3rd Bass - Wordz Of Wisdom (aka III The Hardway) (Club Mix)',
+    title: '3rd basems - Wordz Of Wisdom (aka III The Hardway) (Club Mix)',
     year: '1989',
   },
   {
@@ -352,7 +352,7 @@ let twitterContent = [
   {
     id: 59,
     url: 'https://www.youtube.com/watch?v=aUMHxHBu8z4',
-    title: "Azzido Da Bass - Doom's Night (Stanton Warriors Main Mix)",
+    title: "Azzido Da Bass - Doom's Night (Stanton Warriors Remix)",
     year: '2000',
   },
   {
@@ -1035,6 +1035,126 @@ let twitterContent = [
     url: 'https://www.youtube.com/watch?v=HikCDHgWeYI',
     title: "Nu Shooz - I Can't Wait (12 Inch Version)",
     year: '1986'
+  },
+  {
+    id: '171',
+    url: 'https://www.youtube.com/watch?v=F86hLLgriLk',
+    title: "After The Fire - Der Kommissar (12 Inch Extended Version)",
+    year: '1982'
+  },
+  {
+    id: '172',
+    url: 'https://www.youtube.com/watch?v=OK3RSSmEwMI',
+    title: "Tori Amos - Professional Widow (Armand Van Helden Remix)",
+    year: '1996'
+  },
+  {
+    id: '173',
+    url: 'https://www.youtube.com/watch?v=BqfIvPQ8Dgo',
+    title: "Sneaker Pimps - Spin Spin Sugar (Armand's Dark Garage Remix)",
+    year: '1997'
+  },
+  {
+    id: '174',
+    url: 'https://www.youtube.com/watch?v=OUEcyUfUks0',
+    title: "Gisele Jackson - Love Commandments (Loop Da Loop Vocal Mix)",
+    year: '1997'
+  },
+  {
+    id: '175',
+    url: 'https://www.youtube.com/watch?v=riA-xh1h2qU',
+    title: "Bad Yard Club - In De Ghetto (Hoxton Whores Remix)",
+    year: '2003'
+  },
+  {
+    id: '176',
+    url: 'https://www.youtube.com/watch?v=_MJrLzIOCJQ',
+    title: "Armand Van Helden - The Funk Pheonema (Da Hool Remix)",
+    year: '2003'
+  },
+  {
+    id: '177',
+    url: 'https://www.youtube.com/watch?v=_jwPMzXefdI',
+    title: "Korn - Got The Life (D.O.S.E. Wollyback Remix)",
+    year: '1998'
+  },
+  {
+    id: '178',
+    url: 'https://www.youtube.com/watch?v=Qjaoh02a9wc',
+    title: "Mariah Carey - Dreamlover (David Morales Def Club Mix)",
+    year: '1993'
+  },
+  {
+    id: '179',
+    url: 'https://www.youtube.com/watch?v=amCAB-0GOC8',
+    title: "M People - Excited (MK Remix)",
+    year: '1994'
+  },
+  {
+    id: '180',
+    url: 'https://www.youtube.com/watch?v=1cp5EOi3Fyw',
+    title: "Pet Shop Boys - Can You Forgive Her? (MK Remix)",
+    year: '1993'
+  },
+  {
+    id: '181',
+    url: 'https://www.youtube.com/watch?v=COZfa2dhB_o',
+    title: "Stereo MCs - Connected (Disconnected Version)",
+    year: '1993'
+  },
+  {
+    id: '182',
+    url: 'https://www.youtube.com/watch?v=aRQg1R4jiwk',
+    title: "U2 - Even Better Than The Real Thing (The Perfecto Mix)",
+    year: '1993'
+  },
+  {
+    id: '183',
+    url: 'https://www.youtube.com/watch?v=6Hl3wlTZdBc',
+    title: "Smart E's - Sesame's Treet (Krome & Time Mix)",
+    year: '1992'
+  },
+  {
+    id: '184',
+    url: 'https://www.youtube.com/watch?v=e6OYfNxzSuo',
+    title: "Kylie Minogue x New Order - Can't Get Blue Monday Out Of My Head",
+    year: '2002'
+  },
+  {
+    id: '185',
+    url: 'https://www.youtube.com/watch?v=4eYuq2_RyPU',
+    title: "Fatboy Slim x The Rolling Stones - The Satisfaction Skank",
+    year: '2000'
+  },
+  {
+    id: '186',
+    url: 'https://www.youtube.com/watch?v=ps5VIWKN_zg',
+    title: "Gabrielle - Forget About The World (Gabrielle Remix)",
+    year: '1996'
+  },
+  {
+    id: '187',
+    url: 'https://www.youtube.com/watch?v=EEDX4JhYIFE',
+    title: "Basement Jaxx - Where's Your Head At? (Stanton Warriors Remix)",
+    year: '2001'
+  },
+  {
+    id: '188',
+    url: 'https://www.youtube.com/watch?v=cXTgrHruvoo',
+    title: "Mason x Princess Superstar - Perfect (Exceeder)",
+    year: '2007'
+  },
+  {
+    id: '189',
+    url: 'https://www.youtube.com/watch?v=I0LMds3phzM',
+    title: "Paul Oakenfold (feat Pharrell Williams) - Sex & Money (Benny Benassi Remix)",
+    year: '2006'
+  },
+  {
+    id: '190',
+    url: 'https://www.youtube.com/watch?v=0vBQ1L0sNis',
+    title: "Madonna - American Life (Paul Oakenfold Downtempo Remix)",
+    year: '2003'
   },
 
 ]
