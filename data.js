@@ -976,6 +976,67 @@ let twitterContent = [
     title: "Prince & The NPG - Gett Off (Houstyle)",
     year: '1991',
   },  
+  {
+    id: '161',
+    url: 'https://www.youtube.com/watch?v=TvtYbUk_eNs',
+    title: "Phil Collins - In The Air Tonight (Ben Liebrand Remix)",
+    year: '1988'
+  },
+  {
+    id: '162',
+    url: 'https://www.youtube.com/watch?v=VDxmk6k8lh4',
+    title: "Patrice Rushen - Forget Me Nots (12 Inch Version)",
+    year: '1982'
+  },
+  {
+    id: '163',
+    url: 'https://www.youtube.com/watch?v=bJtAB_oWxFg',
+    title: "Prince - Hot Thing (Extended Mix)",
+    year: '1987'
+  },
+  {
+    id: '164',
+    url: 'https://www.youtube.com/watch?v=BPgT9jabkqU',
+    title: "Men Without Hats - The Safety Dance (Extended Version)",
+    year: '1982'
+  },
+  {
+    id: '165',
+    url: 'https://www.youtube.com/watch?v=Ah1rLzIVtso',
+    title: "Tears For Fears - Everybody Wants To Rule The World (12 Inch Version)",
+    year: '1985'
+  },
+  {
+    id: '166',
+    url: 'https://www.youtube.com/watch?v=hJ7uiTVz4D4',
+    title: "Sly Fox - Let's Go All The Way (Multimix)",
+    year: '1985'
+  },
+  {
+    id: '167',
+    url: 'https://www.youtube.com/watch?v=G-LsAb6u2fo',
+    title: "Kool Moe Dee - How Ya Like Me Now? (12 Inch Version)",
+    year: '1987'
+  },
+  {
+    id: '168',
+    url: 'https://www.youtube.com/watch?v=G6LEzdHfwXs',
+    title: "ABC - Be Near Me (Munich Disco Mix)",
+    year: '1985'
+  },
+  {
+    id: '169',
+    url: 'https://www.youtube.com/watch?v=9PlMLCXv2dg',
+    title: "Nu Shooz - Point Of No Return (12 Inch Extended Version)",
+    year: '1986'
+  },
+  {
+    id: '170',
+    url: 'https://www.youtube.com/watch?v=HikCDHgWeYI',
+    title: "Nu Shooz - I Can't Wait (12 Inch Version)",
+    year: '1986'
+  },
+
 ]
 
 module.exports = twitterContent
