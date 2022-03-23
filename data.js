@@ -329,7 +329,7 @@ let twitterContent = [
     id: 55,
     url: 'https://www.youtube.com/watch?v=SraMud3BKAU',
     title: "CJ Bolland - Sugar Is Sweeter (Armand's Drum & Bass Mix)",
-    year: '',
+    year: '1997',
   },
   {
     id: 56,
