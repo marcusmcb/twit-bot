@@ -977,181 +977,181 @@ let twitterContent = [
     year: '1991',
   },  
   {
-    id: '161',
+    id: 161,
     url: 'https://www.youtube.com/watch?v=TvtYbUk_eNs',
     title: "Phil Collins - In The Air Tonight (Ben Liebrand Remix)",
     year: '1988'
   },
   {
-    id: '162',
+    id: 162,
     url: 'https://www.youtube.com/watch?v=VDxmk6k8lh4',
     title: "Patrice Rushen - Forget Me Nots (12 Inch Version)",
     year: '1982'
   },
   {
-    id: '163',
+    id: 163,
     url: 'https://www.youtube.com/watch?v=bJtAB_oWxFg',
     title: "Prince - Hot Thing (Extended Mix)",
     year: '1987'
   },
   {
-    id: '164',
+    id: 164,
     url: 'https://www.youtube.com/watch?v=BPgT9jabkqU',
     title: "Men Without Hats - The Safety Dance (Extended Version)",
     year: '1982'
   },
   {
-    id: '165',
+    id: 165,
     url: 'https://www.youtube.com/watch?v=Ah1rLzIVtso',
     title: "Tears For Fears - Everybody Wants To Rule The World (12 Inch Version)",
     year: '1985'
   },
   {
-    id: '166',
+    id: 166,
     url: 'https://www.youtube.com/watch?v=hJ7uiTVz4D4',
     title: "Sly Fox - Let's Go All The Way (Multimix)",
     year: '1985'
   },
   {
-    id: '167',
+    id: 167,
     url: 'https://www.youtube.com/watch?v=G-LsAb6u2fo',
     title: "Kool Moe Dee - How Ya Like Me Now? (12 Inch Version)",
     year: '1987'
   },
   {
-    id: '168',
+    id: 168,
     url: 'https://www.youtube.com/watch?v=G6LEzdHfwXs',
     title: "ABC - Be Near Me (Munich Disco Mix)",
     year: '1985'
   },
   {
-    id: '169',
+    id: 169,
     url: 'https://www.youtube.com/watch?v=9PlMLCXv2dg',
     title: "Nu Shooz - Point Of No Return (12 Inch Extended Version)",
     year: '1986'
   },
   {
-    id: '170',
+    id: 170,
     url: 'https://www.youtube.com/watch?v=HikCDHgWeYI',
     title: "Nu Shooz - I Can't Wait (12 Inch Version)",
     year: '1986'
   },
   {
-    id: '171',
+    id: 171,
     url: 'https://www.youtube.com/watch?v=F86hLLgriLk',
     title: "After The Fire - Der Kommissar (12 Inch Extended Version)",
     year: '1982'
   },
   {
-    id: '172',
+    id: 172,
     url: 'https://www.youtube.com/watch?v=OK3RSSmEwMI',
     title: "Tori Amos - Professional Widow (Armand Van Helden Remix)",
     year: '1996'
   },
   {
-    id: '173',
+    id: 173,
     url: 'https://www.youtube.com/watch?v=BqfIvPQ8Dgo',
     title: "Sneaker Pimps - Spin Spin Sugar (Armand's Dark Garage Remix)",
     year: '1997'
   },
   {
-    id: '174',
+    id: 174,
     url: 'https://www.youtube.com/watch?v=OUEcyUfUks0',
     title: "Gisele Jackson - Love Commandments (Loop Da Loop Vocal Mix)",
     year: '1997'
   },
   {
-    id: '175',
+    id: 175,
     url: 'https://www.youtube.com/watch?v=riA-xh1h2qU',
     title: "Bad Yard Club - In De Ghetto (Hoxton Whores Remix)",
     year: '2003'
   },
   {
-    id: '176',
+    id: 176,
     url: 'https://www.youtube.com/watch?v=_MJrLzIOCJQ',
     title: "Armand Van Helden - The Funk Pheonema (Da Hool Remix)",
     year: '2003'
   },
   {
-    id: '177',
+    id: 177,
     url: 'https://www.youtube.com/watch?v=_jwPMzXefdI',
     title: "Korn - Got The Life (D.O.S.E. Wollyback Remix)",
     year: '1998'
   },
   {
-    id: '178',
+    id: 178,
     url: 'https://www.youtube.com/watch?v=Qjaoh02a9wc',
     title: "Mariah Carey - Dreamlover (David Morales Def Club Mix)",
     year: '1993'
   },
   {
-    id: '179',
+    id: 179,
     url: 'https://www.youtube.com/watch?v=amCAB-0GOC8',
     title: "M People - Excited (MK Remix)",
     year: '1994'
   },
   {
-    id: '180',
+    id: 180,
     url: 'https://www.youtube.com/watch?v=1cp5EOi3Fyw',
     title: "Pet Shop Boys - Can You Forgive Her? (MK Remix)",
     year: '1993'
   },
   {
-    id: '181',
+    id: 181,
     url: 'https://www.youtube.com/watch?v=COZfa2dhB_o',
     title: "Stereo MCs - Connected (Disconnected Version)",
     year: '1993'
   },
   {
-    id: '182',
+    id: 182,
     url: 'https://www.youtube.com/watch?v=aRQg1R4jiwk',
     title: "U2 - Even Better Than The Real Thing (The Perfecto Mix)",
     year: '1993'
   },
   {
-    id: '183',
+    id: 183,
     url: 'https://www.youtube.com/watch?v=6Hl3wlTZdBc',
     title: "Smart E's - Sesame's Treet (Krome & Time Mix)",
     year: '1992'
   },
   {
-    id: '184',
+    id: 184,
     url: 'https://www.youtube.com/watch?v=e6OYfNxzSuo',
     title: "Kylie Minogue x New Order - Can't Get Blue Monday Out Of My Head",
     year: '2002'
   },
   {
-    id: '185',
+    id: 185,
     url: 'https://www.youtube.com/watch?v=4eYuq2_RyPU',
     title: "Fatboy Slim x The Rolling Stones - The Satisfaction Skank",
     year: '2000'
   },
   {
-    id: '186',
+    id: 186,
     url: 'https://www.youtube.com/watch?v=ps5VIWKN_zg',
     title: "Gabrielle - Forget About The World (Gabrielle Remix)",
     year: '1996'
   },
   {
-    id: '187',
+    id: 187,
     url: 'https://www.youtube.com/watch?v=EEDX4JhYIFE',
     title: "Basement Jaxx - Where's Your Head At? (Stanton Warriors Remix)",
     year: '2001'
   },
   {
-    id: '188',
+    id: 188,
     url: 'https://www.youtube.com/watch?v=cXTgrHruvoo',
     title: "Mason x Princess Superstar - Perfect (Exceeder)",
     year: '2007'
   },
   {
-    id: '189',
+    id: 189,
     url: 'https://www.youtube.com/watch?v=I0LMds3phzM',
     title: "Paul Oakenfold (feat Pharrell Williams) - Sex & Money (Benny Benassi Remix)",
     year: '2006'
   },
   {
-    id: '190',
+    id: 190,
     url: 'https://www.youtube.com/watch?v=0vBQ1L0sNis',
     title: "Madonna - American Life (Paul Oakenfold Downtempo Remix)",
     year: '2003'
