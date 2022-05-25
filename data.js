@@ -1155,6 +1155,66 @@ let twitterContent = [
     url: 'https://www.youtube.com/watch?v=0vBQ1L0sNis',
     title: "Madonna - American Life (Paul Oakenfold Downtempo Remix)",
     year: '2003'
+  },  
+  {
+    id: '191',
+    url: 'https://www.youtube.com/watch?v=VtYQvlCcuns',
+    title: 'Cameo - Word Up (12 Inch Version)',
+    year: '1986'
+  },
+  {
+    id: '192',
+    url: 'https://www.youtube.com/watch?v=-WBqn-fSqyM',
+    title: 'Information Society - Whats On Your Mind (Pure Energy) (12" Club Mix)',
+    year: '1988'
+  },
+  {
+    id: '193',
+    url: 'https://www.youtube.com/watch?v=e2-cv_9vlTU',
+    title: 'Cause & Effect - You Think You Know Her (Unfaithful Mix)',
+    year: '1991'
+  },
+  {
+    id: '194',
+    url: 'https://www.youtube.com/watch?v=YZ2x5X0LmG8',
+    title: 'Missy Elliott - Sock It 2 Me (Kaytranada Remix)',
+    year: '2013'
+  },
+  {
+    id: '195',
+    url: 'https://www.youtube.com/watch?v=TMHu_lAkouE',
+    title: 'Sweet Sensation - Hooked On You (Single Remix)',
+    year: '1990'
+  },
+  {
+    id: '196',
+    url: 'https://www.youtube.com/watch?v=CrtSFue1Ttc',
+    title: 'Noel - Like A Child (12" Vocal 1018 Club Mix)',
+    year: '1988'
+  },
+  {
+    id: '197',
+    url: 'https://www.youtube.com/watch?v=CD7ZIASIia4',
+    title: 'Voice In Fashion - Only In The Night (Club Mix)',
+    year: '1987'
+  },
+  {
+    id: '198',
+    url: 'https://www.youtube.com/watch?v=0h-pIrcSdr4',
+    title: 'Will To Power - Fading Away (Big Beat Mix)',
+    year: '1989'
+  },
+  {
+    id: '199',
+    url: 'https://www.youtube.com/watch?v=5bXcVa9SUtE',
+    title: 'Clean Bandit (feat Jess Glynne) - Rather Be (Elephante Remix)',
+    year: '2014'
+  },
+  {
+    id: '200',
+    url: 'https://www.youtube.com/watch?v=jmzMUHJusUo',
+    title: 'Foster The People - Sit Next To Me (Stereotypes Remix)',
+    year: '2017'
   },
 
 ]
