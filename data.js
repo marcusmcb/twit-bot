@@ -1216,6 +1216,12 @@ let twitterContent = [
     title: 'Foster The People - Sit Next To Me (Stereotypes Remix)',
     year: '2017'
   },
+  {
+    id: '201',
+    url: 'https://www.youtube.com/watch?v=dzccFVDSNT0',
+    title: 'KC Flightt - Summer Madness (Mental Club Mix)',
+    year: '1989'
+  }
 
 ]
 
